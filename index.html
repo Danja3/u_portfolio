@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Usman Modibbo Danja | Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Inside <head> -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+
+   
+
+  <!-- Navigation -->
+<header class="navbar">
+  <div class="logo">Danja</div>
+
+  <!-- Desktop nav (visible on PC) -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button id="darkModeToggle" aria-label="Toggle Dark Mode">🌓</button>
+
+
+  <!-- Mobile hamburger -->
+  <button id="menu-toggle" aria-label="Open Menu">☰</button>
+</header>
+
+<!-- Mobile dashboard menu (outside header) -->
+<div id="mobile-dashboard" class="dashboard">
+  <button id="close-dashboard" aria-label="Close Menu">×</button>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Hi, Usman Modibbo Danja 👋</h1>
+    <h2><span id="typed-text"></span></h2>
+    <p>I build fast, modern, and scalable web applications.</p>
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="resume.pdf" class="btn-secondary" download>Download Resume</a>
+  </section>
+
+  <!-- More Sections Will Go Here -->
+    <!-- ===== About Section ===== -->
+<section id="about" class="section about" data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+
+    <p>
+      I'm a passionate software engineer...
+    </p>
+
+    <ul class="about-highlights">
+      <li>🎓 B.Sc. in Software Engineering</li>
+      <li>👨‍💻 3+ years of coding experience</li>
+      <li>🌍 I am open to remote and freelance work 
+    in the field of computer technology or innovation.</li>
+      <li>🚀 Always learning new tools & frameworks</li> 
+      <li> Students in Al qalam University Katsina </li>
+      <li> Member at Flexisaf </li>
+    </ul>
+
+    <!-- 👇 Mini gallery -->
+    <div class="about-gallery">
+      <img src="assets/images/IMG-20240426-WA0012.jpg" alt="Gallery Image 1">
+      <img src="assets/images/IMG-20240621-WA0085.jpg" alt="Gallery Image 2">
+      <img src="assets/images/IMG-20240723-WA0041-1.jpg" alt="Gallery Image 3">
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===== Skills Section ===== -->
+<section id="skills" class="section skills"  data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skill-category">
+      <h3>Frontend</h3>
+      <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Backend</h3>
+      <ul class="skill-list">
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Tools & Others</h3>
+      <ul class="skill-list">
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+        <li>Linux</li>
+        <li>REST APIs</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <section id="skills"><!-- Skills --></section>
+  <section id="projects">
+    <!-- ===== Projects Section ===== -->
+<section id="projects" class="section projects"  data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+      
+      <!-- Project Card 1 -->
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A fully responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="#" target="_blank">🔗 Live</a>
+          <a href="#" target="_blank">💻 GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="project-card">
+        <h3>Task Manager API</h3>
+        <p>A RESTful API for managing tasks, built with Node.js and Express.</p>
+        <div class="tech-tags">
+          <span>Node.js</span><span>Express</span><span>MongoDB</span>
+        </div>
+        <div class="project-links">
+          <a href="#">🔗 Live</a>
+          <a href="#">💻 GitHub</a>
+        </div>
+      </div>
+
+      <!-- Add more project-card blocks as needed -->
+
+    </div>
+  </div>
+</section>
+
+  </section>
+    <section id="contact" class="section contact"   data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <form action="https://formspree.io/f/movleqrl" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== Testimonials Section ===== -->
+<!-- <section id="testimonials" class="section testimonials" data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">What People Say</h2>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide testimonial-card">
+          <p>"John was amazing..."</p>
+          <h4>Sarah M.</h4>
+          <span>Product Manager</span>
+        </div>
+        <div class="swiper-slide testimonial-card">
+          <p>"One of the best developers I've worked with."</p>
+          <h4>Mike R.</h4>
+          <span>Startup Founder</span>
+        </div>
+
+        
+        Add more .swiper-slide items -->
+      <!-- </div>
+      <div class="swiper-pagination"></div>
+    </div> -->
+ 
+
+    <!-- 
+
+<-- ===== Tech Stack Section ===== -->
+<section id="tech-stack" class="section tech-stack" data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">Tech Stack</h2>
+
+    <div class="stack-grid">
+
+      <!-- Example: Frontend -->
+      <div class="stack-item">
+        <img src="assets/icons/devicon-plain--html5-wordmark.svg" alt="HTML">
+        <span>HTML5</span>
+      </div>
+
+      <div class="stack-item">
+        <img src="assets/icons/material-icon-theme--css.svg" alt="CSS">
+        <span>CSS3</span>
+      </div>
+
+      <div class="stack-item">
+        <img src="assets/icons/catppuccin--javascript-react.svg" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+
+      <!-- Backend -->
+      <div class="stack-item">
+        <img src="assets/icons/vscode-icons--folder-type-js.svg" alt="Node.js">
+        <span>Node.js</span>
+      </div>
+
+      <div class="stack-item">
+        <img src="assets/icons/catppuccin--phtml.svg" alt="PHP">
+        <span>PHP</span>
+      </div>
+
+      <div class="stack-item">
+        <img src="assets/icons/logos--mysql.svg" alt="MySQL">
+        <span>MySQL</span>
+      </div>
+
+      <!-- Tools -->
+      <div class="stack-item">
+        <img src="assets/icons/skill-icons--github-light.svg" alt="Git">
+        <span>Git</span>
+      </div>
+
+      <div class="stack-item">
+        <img src="assets/icons/skill-icons--vscode-light.svg" alt="VS Code">
+        <span>VS Code</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+
+
+  <footer class="footer">
+  <p>© 2025 John Doe | Built with ❤️</p>
+  <div class="socials">
+    <a href="https://github.com/danja3" target="_blank">GitHub</a>
+    <a href="#" target="_blank">LinkedIn</a>
+    <a href="usmanusmanmodibbo@gmail.com">Email</a>
+  </div>
+</footer>
+
+
+  <script src="main.js"></script>
+  <!-- Before closing </body> -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 800 });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+</body>
+</html>
